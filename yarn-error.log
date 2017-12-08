@@ -1,0 +1,43 @@
+Arguments: 
+  /usr/local/Cellar/node/8.8.1/bin/node /usr/local/Cellar/yarn/1.2.1/libexec/bin/yarn.js add npm install truffle-hdwallet-provider
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.8.1
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "pet-shop",
+    "version": "1.0.0",
+    "description": "",
+    "main": "truffle.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "dev": "lite-server",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "lite-server": "^2.3.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: EACCES: permission denied, mkdir '/Users/m_655507/Documents/Projects/tests/truffle_tut/node_modules/babel-generator/node_modules/detect-indent'
